@@ -18,7 +18,7 @@ All APIs run under `/api/v1/`:
 3. `/create-loan/`: Process a new loan based on eligibility
 4. `/view-loan/loan_id/`: View loan details and customer details by loan ID
 5. `/view-loans/customer_id/`: View all current loan details by customer ID
-6. 
+
 Note: Make sure to add a slash ('/') at the end of the API.
 
 ## Pre-requisites
