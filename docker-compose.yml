@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=123@pass
+  web:
+    build: .
+    command: >
+      bash -c "python src/alemeno/manage.py makemigrations &&
+      python src/alemeno/manage.py migrate &&
+      python src/alemeno/manage.py populate_data src/alemeno/data/customer_data.csv src/alemeno/data/loan_data.csv &&
+      python src/alemeno/manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
