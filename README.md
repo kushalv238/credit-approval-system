@@ -10,6 +10,13 @@ This project is a credit approval system that determines loan eligibility based 
 - View loan details and customer details
 - View all current loan details by customer ID
 
+## Technologies Used
+
+- Django
+- PostgreSQL
+- Docker
+- Docker Compose
+
 ## API Endpoints
 
 All APIs run under `/api/v1/`:
@@ -45,13 +52,6 @@ docker-compose up
 ```bash
 http://localhost:8000/api/v1/
 ```
-
-## Technologies Used
-
-- Django
-- PostgreSQL
-- Docker
-- Docker Compose
 
 ## Author
 [Kushal Vadodaria](https://github.com/kushalv238)
