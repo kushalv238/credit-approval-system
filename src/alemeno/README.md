@@ -2,7 +2,7 @@
 
 These factors determine the credit score of a user:
 
-> What much percentage of the approved limit has the customer used to take their active loans? Since it is recommended that 30% is ideal ([source]( https://www.paisabazaar.com/credit-score/cibil-score-calculation/)), we give scores based on that. Weightage is 25%.
+> How much percentage of the approved limit has the customer used to take their active loans? Since it is recommended that 30% is ideal ([source]( https://www.paisabazaar.com/credit-score/cibil-score-calculation/)), we give scores based on that. Weightage is 25%.
 
 > Percentage of EMIs paid on time vs EMIs not paid on time, since customers can pay in advance, a higher score is given to customers who pay in advance. Weightage is 30%.
 
