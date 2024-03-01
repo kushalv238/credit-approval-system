@@ -63,9 +63,9 @@ http://localhost:8000/api/v1/
 ```
 
 ## Testing the project
-Use this Postman workspace with existing APIs to test the project
+Use this Postman collection with existing APIs to test the project
 
-[Workspace](https://www.postman.com/telecoms-geologist-66457404/workspace/open/overview)
+[Collection](https://www.postman.com/telecoms-geologist-66457404/workspace/open/collection/26309885-7d351ebb-b7c9-4ee6-8447-239e59c549bc)
 
 Note: Change to the desktop agent if you are running Postman on a browser. Option can be found on the bottom right.
 
