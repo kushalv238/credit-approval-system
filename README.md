@@ -45,11 +45,13 @@ git clone https://github.com/kushalv238/credit_approval_system.git
 cd credit_approval_system
 ```
 >Start the Docker engine either by:
+
 Running
 ```bash
 sudo systemctl start docker
 ```
 or starting up [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
 >Run Docker Compose
 ```bash
 docker-compose up
