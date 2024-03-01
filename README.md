@@ -66,5 +66,7 @@ Use this Postman workspace with existing APIs to test the project
 
 [Workspace](https://www.postman.com/telecoms-geologist-66457404/workspace/open/overview)
 
+Note: Change to the desktop agent if you are running Postman on a browser. Option can be found on the bottom right.
+
 ## Author
 [Kushal Vadodaria](https://github.com/kushalv238)
