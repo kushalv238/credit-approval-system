@@ -32,6 +32,7 @@ Note: Make sure to add a slash ('/') at the end of the API.
 
 - python
 - docker
+- Docker Desktop
 - docker-compose
 
 ## Running the Application
