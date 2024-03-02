@@ -9,7 +9,8 @@ services:
   web:
     build: .
     command: >
-      bash -c "python src/alemeno/manage.py makemigrations &&
+      bash -c " . venv/bin/activate &&
+      python src/alemeno/manage.py makemigrations &&
       python src/alemeno/manage.py migrate &&
       python src/alemeno/manage.py populate_data src/alemeno/data/customer_data.csv src/alemeno/data/loan_data.csv &&
       python src/alemeno/manage.py runserver 0.0.0.0:8000"

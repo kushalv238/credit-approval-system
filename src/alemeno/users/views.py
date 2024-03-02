@@ -44,7 +44,7 @@ def register_customer(request):
                     'approved_limit': serializer.validated_data['approved_limit'],
                     'phone_number': serializer.validated_data['phone_number']
                 },
-                    'message': 'User added successfully!'
+                'message': 'User added successfully!'
             },
             status=status.HTTP_201_CREATED
         )

@@ -1,0 +1,7 @@
+django==4.2.7
+djangorestframework==3.13.1
+pathlib==1.13.0
+python-decouple==3.8
+datetime==1.11.5
+pandas==1.5.2
+python-dateutil==2.8.2
