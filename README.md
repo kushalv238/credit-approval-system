@@ -45,13 +45,7 @@ git clone https://github.com/kushalv238/credit_approval_system.git
 ```bash
 cd credit_approval_system
 ```
->Start the Docker engine either by:
-
-Running
-```bash
-sudo systemctl start docker
-```
-or Starting up [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+>Start the Docker engine by starting the Docker Desktop or by using [OS utilities](https://docs.docker.com/config/daemon/start/)
 
 >Run Docker Compose
 ```bash
@@ -67,7 +61,7 @@ Use this Postman collection with existing APIs to test the project
 
 [Collection](https://www.postman.com/telecoms-geologist-66457404/workspace/open/collection/26309885-7d351ebb-b7c9-4ee6-8447-239e59c549bc)
 
-Note: Change to the desktop agent if you are running Postman on a browser. Option can be found on the bottom right.
+Note: Change the agent to [desktop agent](https://www.postman.com/downloads/postman-agent/) if you run Postman on a browser. The option can be found on the bottom right.
 
 ## Author
 [Kushal Vadodaria](https://github.com/kushalv238)
