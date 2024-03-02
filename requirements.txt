@@ -1,7 +1,8 @@
-django==4.2.7
-djangorestframework==3.13.1
-pathlib==1.13.0
+django==5.0.2
+djangorestframework==3.14.0
+pathlib==1.0.1
 python-decouple==3.8
-datetime==1.11.5
-pandas==1.5.2
+pandas==2.2.1
 python-dateutil==2.8.2
+django-cors-headers==4.3.1
+psycopg2==2.9.9

@@ -1,17 +1,23 @@
-FROM python:3
+FROM python:3 as compiler
 
 ENV PYTHONUNBUFFERED 1
 RUN mkdir /code
 WORKDIR /code
 
-RUN apt-get update && apt-get install -y python3-venv
-RUN python -m venv venv
-ENV PATH="/code/venv/bin:$PATH"
+RUN apt-get update && apt-get install -y python3-pip && apt-get install -y python3-venv
 
-COPY . /code/
+RUN python -m venv /venv
+ENV PATH="/venv/bin:$PATH"
 
-RUN pip install --upgrade pip
+COPY ./requirements.txt /code/requirements.txt
 RUN pip install -r requirements.txt
 
+FROM python:3 as runner
 
-CMD ["bash"]
+WORKDIR /code
+
+COPY --from=compiler /venv /venv
+
+ENV PATH="/venv/bin:$PATH"
+
+COPY . /code/
