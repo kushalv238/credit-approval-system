@@ -63,5 +63,19 @@ Use this Postman collection with existing APIs to test the project
 
 Note: Change the agent to [desktop agent](https://www.postman.com/downloads/postman-agent/) if you run Postman on a browser. The option can be found on the bottom right.
 
+## Adding production secrets
+Create a ```.env``` file in the root directory of this project & add a [SECRET_KEY](https://docs.djangoproject.com/en/5.0/ref/settings/#secret-key) for django to use.
+>Run the following command in your Django project's Python shell to generate a secret key
+```bash
+from django.core.management.utils import get_random_secret_key
+get_random_secret_key()
+```
+>Copy the new SECRET_KEY that is generated & paste it to your .env file.
+```
+SECRET_KEY=your_secret_key_here
+```
+
+Note: By default this application uses an insecure key please change it to avoid unwanted attacks.
+
 ## Author
 [Kushal Vadodaria](https://github.com/kushalv238)
