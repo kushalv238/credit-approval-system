@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.log
+*.cache
+*.diff
+*.pyc
+.cache/
+.log/
+
+/venv/
+/pip-wheel-metadata/

@@ -27,6 +27,7 @@ class Command(BaseCommand):
                         monthly_salary=row['Monthly Salary'],
                         approved_limit=row['Approved Limit'],
                     )
+            print("Initial Customer data populated")
 
         if not LoanData.objects.exists():
             with open(loan_csv, 'r') as f:
@@ -44,3 +45,5 @@ class Command(BaseCommand):
                         date_of_approval=datetime.strptime(row['Date of Approval'], "%m/%d/%Y").strftime("%Y-%m-%d"),
                         end_date=datetime.strptime(row['End Date'], "%m/%d/%Y").strftime("%Y-%m-%d"),
                     )
+            print("Initial Loan data populated")
+            
