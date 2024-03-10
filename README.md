@@ -78,4 +78,4 @@ SECRET_KEY=your_secret_key_here
 Note: By default this application uses an insecure key please change it to avoid unwanted attacks.
 
 ## Author
-[Kushal Vadodaria](https://github.com/kushalv238)
+[Kushal Vadodaria](https://linkedin.com/in/kushal-vadodaria/)
