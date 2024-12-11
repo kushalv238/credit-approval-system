@@ -1,4 +1,4 @@
-FROM python:3 as compiler
+FROM python:3 AS compiler
 
 ENV PYTHONUNBUFFERED 1
 RUN mkdir /code
@@ -12,7 +12,7 @@ ENV PATH="/venv/bin:$PATH"
 COPY ./requirements.txt /code/requirements.txt
 RUN pip install -r requirements.txt
 
-FROM python:3 as runner
+FROM python:3 AS runner
 
 WORKDIR /code
 

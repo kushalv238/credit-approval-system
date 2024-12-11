@@ -1,8 +1,8 @@
-django==5.0.2
-djangorestframework==3.14.0
-pathlib==1.0.1
-python-decouple==3.8
-pandas==2.2.1
-python-dateutil==2.8.2
-django-cors-headers==4.3.1
-psycopg2==2.9.9
+django
+djangorestframework
+pathlib
+python-decouple
+pandas
+python-dateutil
+django-cors-headers
+psycopg2
